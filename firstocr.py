@@ -15,8 +15,11 @@ if __name__ == "__main__":
         print("*************************************")
         print("Printing file contents of " + file_to_process)
         print("*************************************")
-        print(pytesseract.image_to_string(Image.open(file_to_process)))
+        scanned_text = pytesseract.image_to_string(Image.open(file_to_process))
+        print(scanned_text)
         print("*************************************")
+
+
 
 
 
