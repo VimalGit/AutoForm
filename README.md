@@ -2,11 +2,11 @@
 
 Sample project folder structure
 
---firstocr.py
---\input
-----inputfile.jpg
---\output
-----outputfile.txt
+--firstocr.py<br>
+--\input<br>
+----bankletter.jpg<br>
+--\output<br>
+----formswetha.txt (This will be generated from program)<br>
 
 The main code is firstocr.py
 The input images are stored in "input" directory.
@@ -16,7 +16,7 @@ Usage:
 
 In command line type
 
-python firstocr.py input/bankletter.jpg
+`python firstocr.py input/bankletter.jpg`
 
 The program will run and read the input image and scan using Tesseract. Then it will ask for output file name. Just give file name without any folder or extension. 
 eg. formswetha
