@@ -20,8 +20,9 @@ if __name__ == "__main__":
 
         scanned_text = pytesseract.image_to_string(Image.open(file_to_process))
 
+        out_directory = "output"
         out_file = input("Enter output file name...")
-        output_file_path_and_name = os.path.join("output", out_file+".txt")
+        output_file_path_and_name = os.path.join(out_directory, out_file+".txt")
 
         out_file = open(output_file_path_and_name, "w+")
         out_file.write(scanned_text)
