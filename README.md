@@ -1,6 +1,6 @@
 # AutoForm
 
-Sample project folder structure
+## Sample project folder structure
 
 --firstocr.py<br>
 --\input<br>
@@ -12,7 +12,7 @@ The main code is firstocr.py
 The input images are stored in "input" directory.
 The scanned image's output text file is stored in "output" directory.
 
-Usage:
+### Usage:
 
 In command line type
 
@@ -22,3 +22,9 @@ The program will run and read the input image and scan using Tesseract. Then it 
 eg. formswetha
 
 This will save the scanned image in the "output" folder under the name "formswetha.txt"
+
+### Example:
+
+
+![image](https://user-images.githubusercontent.com/5920239/127966984-bbdbc032-5cb4-4a1c-9457-a177c869f4f4.png)
+
